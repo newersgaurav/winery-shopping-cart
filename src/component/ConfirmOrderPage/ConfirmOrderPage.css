@@ -1,0 +1,132 @@
+.order-confirmed-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px; }
+  .order-confirmed-wrapper .confirmation-message {
+    color: #1c7a0b;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 100px; }
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+  border-radius: 4px;
+  border: 1px solid #494949;
+  position: relative;
+  background: #494949; }
+  .products h3 {
+    position: absolute;
+    left: 20px;
+    top: -40px;
+    padding: 10px 0px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    background: #343434; }
+
+.product-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 350px;
+  padding: 10px;
+  border: 1px solid #494949;
+  margin-bottom: 20px;
+  background: #fff; }
+  .product-items .product-items-image {
+    flex-basis: 200px;
+    height: 200px; }
+  .product-items .product-items-details {
+    flex-basis: 162px;
+    line-height: 1.5; }
+    .product-items .product-items-details p {
+      background: #343434;
+      color: #DDDDDD;
+      padding: 5px; }
+
+.product-billing {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 50px;
+  border: 1px solid #494949;
+  border-radius: 4px;
+  padding: 50px 20px;
+  background: #494949;
+  position: relative; }
+  .product-billing h3 {
+    position: absolute;
+    left: 20px;
+    top: -40px;
+    padding: 10px 0px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    background: #343434; }
+  .product-billing .shipping-block {
+    border: 1px solid #343434;
+    border-radius: 4px;
+    flex-basis: 200px;
+    line-height: 1;
+    padding: 10px;
+    background: #343434;
+    color: #DDDDDD; }
+    .product-billing .shipping-block h5 {
+      font-size: 20px;
+      margin: 5px 0px; }
+    .product-billing .shipping-block p {
+      font-size: 13px;
+      font-style: italic; }
+  .product-billing .billing-block {
+    border: 1px solid #343434;
+    border-radius: 4px;
+    flex-basis: 200px;
+    line-height: 1;
+    padding: 10px;
+    background: #343434;
+    color: #DDDDDD; }
+    .product-billing .billing-block h5 {
+      font-size: 20px;
+      margin: 5px 0px; }
+    .product-billing .billing-block p {
+      font-size: 13px;
+      font-style: italic; }
+  .product-billing .bill-block {
+    border: 1px solid #343434;
+    border-radius: 4px;
+    flex-basis: 200px;
+    line-height: 1;
+    padding: 10px;
+    background: #343434;
+    color: #DDDDDD; }
+    .product-billing .bill-block h5 {
+      font-size: 20px;
+      margin: 5px 0px; }
+    .product-billing .bill-block p {
+      font-size: 13px;
+      font-style: italic; }
+
+.thanks-message {
+  color: #ff0000;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center; }
+
+.continue-shopping-btn {
+  text-align: center; }
+  .continue-shopping-btn .continue-shopping {
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+    border: 1px solid #343434;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 0px;
+    color: #fff;
+    background: #343434; }
+
+/*# sourceMappingURL=ConfirmOrderPage.css.map */

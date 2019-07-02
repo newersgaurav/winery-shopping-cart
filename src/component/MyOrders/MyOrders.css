@@ -1,0 +1,39 @@
+.order-main-container {
+  background: #ebe8e8;
+  height: -webkit- h2;
+    height-text-align: center;
+    height-color: #343434;
+    height-border-bottom: 1px solid #343434;
+    height-margin: 0px;
+    height-margin-bottom: 50px;
+    height-padding: 20px 0px;
+    height-font-size: 48px;
+    height-font-weight: 700; }
+  .order-main-container .orders {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .order-main-container .orders .orderDetailsLink {
+      display: block;
+      text-decoration: none;
+      background: #343434;
+      color: #fff;
+      font-style: italic;
+      padding: 10px;
+      border-radius: 4px;
+      -moz-box-shadow: 3px 3px 3px 3px #a3a3a3;
+      -webkit-box-shadow: 3px 3px 3px 3px #a3a3a3;
+      box-shadow: 3px 3px 3px 3px #a3a3a3; }
+      .order-main-container .orders .orderDetailsLink:hover {
+        background: #fff;
+        color: #343434; }
+
+.no-order {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center; }
+
+/*# sourceMappingURL=MyOrders.css.map */

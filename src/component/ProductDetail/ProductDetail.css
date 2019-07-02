@@ -1,0 +1,15 @@
+.wrapper-product-details {
+  width: 60%;
+  margin: 0 auto; }
+  .wrapper-product-details .product-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 20px; }
+    .wrapper-product-details .product-details img {
+      width: 200px;
+      height: 250px; }
+
+/*# sourceMappingURL=ProductDetail.css.map */

@@ -1,0 +1,53 @@
+ul{
+    position: absolute;
+    width: 20px;
+    list-style-type: none;
+    z-index: 1;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    top: -20px;
+    left: -1px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+
+    li{
+        width: 20px;
+        height: 20px;
+        position: relative;
+        border-bottom: 1px solid #a6a6a6;
+        &:last-child{
+            border-bottom: 0;
+        }
+        .Red{
+            background: red;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .Blue{
+            background: darkblue;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .Yellow{
+            background: yellow;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

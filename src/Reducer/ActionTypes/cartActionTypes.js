@@ -1,0 +1,11 @@
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const CHANGE_SIZE = 'CHANGE_SIZE';
+export const EMPTY_CART = 'EMPTY_CART';
+export const INCREASE_QUANTITY = 'INCREASE_QUANTITY';
+export const DECREASE_QUANTITY = 'DECREASE_QUANTITY';
+export const DELETE_PRODUCT = 'DELETE_PRODUCT';
+export const CHANGE_COLOR = 'CHANGE_COLOR';
+export const SIZE_CHANGE = 'SIZE_CHANGE';
+export const ADD_ADDRESS = 'ADD_ADDRESS';
+export const ADD_AMOUNT_DETAILS = 'ADD_AMOUNT_DETAILS';
+export const ADD_ORDERS = 'ADD_ORDERS';

@@ -1,0 +1,21 @@
+.cart-options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .links{
+        flex-basis: 160px;
+        padding: 10px 0px;
+        color: #fff;
+        background: #343434;
+        border: none;
+        border-radius: 4px;
+        text-decoration: none;
+        &:hover{
+            font-weight: 700;
+            cursor: pointer;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+}

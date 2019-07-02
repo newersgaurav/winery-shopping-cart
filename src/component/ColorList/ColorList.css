@@ -1,0 +1,48 @@
+ul {
+  position: absolute;
+  width: 20px;
+  list-style-type: none;
+  z-index: 1;
+  border: 1px solid #a6a6a6;
+  border-radius: 4px;
+  top: -20px;
+  left: -1px;
+  margin: 0;
+  padding: 0;
+  background: #fff; }
+  ul li {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    border-bottom: 1px solid #a6a6a6; }
+    ul li:last-child {
+      border-bottom: 0; }
+    ul li .Red {
+      background: red;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    ul li .Blue {
+      background: darkblue;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    ul li .Yellow {
+      background: yellow;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=ColorList.css.map */

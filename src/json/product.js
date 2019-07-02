@@ -1,0 +1,103 @@
+const data = {
+    "images":[
+        {
+            "Blue": "https://s3.amazonaws.com/it-academy-photos-bucket/img1.jpg",
+            "Red": "https://s3.amazonaws.com/it-academy-photos-bucket/img2.jpg",
+            "Yellow": "https://s3.amazonaws.com/it-academy-photos-bucket/img3.jpg"
+        }
+    ],
+    "thumb" : [
+        {
+            "alt": "Image1",
+            "productname": "Puma",
+            "category": "T-shirt",
+            "price": 1500,
+            "defaultColor": "Red",
+            "size" : "Small",
+            "quantity" : 0,
+            "key": 1,
+        },
+        {
+            "alt": "Image2",
+            "productname" : "Adidas",
+            "category" : "T-shirt",
+            "price" : 2500,
+            "defaultColor" : "Blue",
+            "size" : "Small",
+            "quantity" : 0,
+            "key" : 2,
+        },
+        {
+            "alt" : "Image3",
+            "productname" : "Nike",
+            "category" : "T-shirt",
+            "price" : 2500,
+            "defaultColor" : "Yellow",
+            "size" : "Small",
+            "quantity" : 0,
+            "key" : 3,
+        },
+        {
+            "alt" : "Image4",
+            "productname" : "US Polo",
+            "category" : "T-shirt",
+            "price" : 2500,
+            "defaultColor" : "Red",
+            "size" : "Small",
+            "quantity" : 0,
+            "key" : 4,
+        },
+        {
+            "alt": "Image5",
+            "productname": "United Color Of Beneton",
+            "category": "T-shirt",
+            "price": 2500,
+            "defaultColor": "Blue",
+            "size" : "Small",
+            "quantity" : 0,
+            "key": 5,
+        },
+        {
+            "alt" : "Image6",
+            "productname" : "Superdry",
+            "category" : "T-shirt",
+            "price" : 2500,
+            "defaultColor" : "Red",
+            "size" : "Small",
+            "quantity" : 0,
+            "key" : 6,
+        },
+        {
+            "alt" : "Image7",
+            "productname" : "Allen Solly",
+            "category" : "Tshirt",
+            "price" : 2500,
+            "defaultColor" : "Yellow",
+            "size" : "Small",
+            "quantity" : 0,
+            "key" : 7,
+        },
+        {
+            "alt" : "Image8",
+            "productname" : "Lacostee",
+            "category" : "T-shirt",
+            "price" : 2500,
+            "defaultColor" : "Blue",
+            "size" : "Small",
+            "quantity" : 0,
+            "key" : 8,
+        },
+        {
+            "alt" : "Image9",
+            "productname" : "S.Oliver",
+            "category" : "T-shirt",
+            "price" : 2500,
+            "defaultColor" : "Yellow",
+            "size" : "Small",
+            "quantity" : 0,
+            "key" : 9,
+        }
+    ],
+}
+
+export default data;

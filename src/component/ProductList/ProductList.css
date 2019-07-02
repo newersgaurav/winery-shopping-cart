@@ -1,0 +1,112 @@
+.wrapper {
+  width: 100%;
+  max-width: 790px;
+  margin: 0 auto; }
+  .wrapper .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .wrapper .heading .product-list-heading {
+      color: #000; }
+    .wrapper .heading .link {
+      text-decoration: none;
+      color: #fff; }
+      .wrapper .heading .link .batch {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: red;
+        text-align: center;
+        font-size: 12px; }
+  .wrapper .product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+
+.cart-container {
+  position: relative; }
+
+.cart-details-card {
+  width: 400px;
+  max-height: 300px;
+  overflow-y: scroll;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  background: #343434;
+  color: #fff;
+  border-radius: 4px;
+  padding: 10px; }
+
+.cart-details-card::-webkit-scrollbar {
+  width: 0; }
+
+.item-rows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px; }
+  .item-rows .product-image {
+    flex-basis: 100px;
+    height: 100px; }
+  .item-rows .details {
+    flex-basis: 250px;
+    height: 100px;
+    position: relative;
+    line-height: 1.5; }
+    .item-rows .details p {
+      margin: 0; }
+    .item-rows .details .delete-item {
+      position: absolute;
+      right: 10px;
+      top: 0; }
+      .item-rows .details .delete-item:hover {
+        cursor: pointer; }
+
+#box-shadow-Red:hover {
+  -moz-box-shadow: 3px 3px 3px 3px #f00;
+  -webkit-box-shadow: 3px 3px 3px 3px #f00;
+  box-shadow: 3px 3px 3px 3px #f00; }
+
+#box-shadow-Yellow:hover {
+  -moz-box-shadow: 3px 3px 3px 3px yellow;
+  -webkit-box-shadow: 3px 3px 3px 3px yellow;
+  box-shadow: 3px 3px 3px 3px yellow; }
+
+#box-shadow-Blue:hover {
+  -moz-box-shadow: 3px 3px 3px 3px darkblue;
+  -webkit-box-shadow: 3px 3px 3px 3px darkblue;
+  box-shadow: 3px 3px 3px 3px darkblue; }
+
+.main-container {
+  position: relative;
+  background: #ebe8e8; }
+
+.notify {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 0;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  background: #008000;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: height .2s;
+  font-weight: 700; }
+
+#notifyType:before {
+  display: block;
+  margin-top: 45px; }
+
+.active {
+  height: 100px; }
+
+.success:before {
+  Content: "Product Added To Cart"; }
+
+/*# sourceMappingURL=ProductList.css.map */

@@ -1,0 +1,57 @@
+.options {
+  display: flex;
+  justify-content: space-between; }
+  .options .select-color {
+    flex-basis: 20px;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px;
+    position: relative; }
+    .options .select-color #Red {
+      background: red;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    .options .select-color #Blue {
+      background: darkblue;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    .options .select-color #Yellow {
+      background: yellow;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+  .options select {
+    padding: 2px;
+    background: #fff;
+    flex-basis: 60px;
+    border: 1px solid #a6a6a6;
+    border-radius: 4px; }
+    .options select:hover {
+      cursor: pointer; }
+    .options select:focus {
+      outline: none; }
+  .options button {
+    flex-basis: 90px;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 4px; }
+    .options button:hover {
+      cursor: pointer; }
+    .options button:focus {
+      outline: none; }
+
+/*# sourceMappingURL=ProductOption.css.map */

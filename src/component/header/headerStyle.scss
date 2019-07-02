@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background: #343434;
+    color: #fff;
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: 130px;
+    }
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+

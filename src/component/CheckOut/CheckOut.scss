@@ -1,0 +1,136 @@
+.main-checkout-container{
+    background: #ebe8e8;
+}
+.checkout-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    h2{
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    .billing-address{
+        line-height: 3;
+        padding: 30px;
+        border: 1px solid #d3d3d3;
+        border-radius: 5px;
+        position: relative;
+        .heading{
+            position: absolute;
+            width: 200px;
+            top: -20px;
+            left: 30px;
+            font-weight: 700;
+            color: #fff;
+            background: #343434;
+            text-align: center;
+        }
+    }
+    .shipping-address{
+        line-height: 3;
+        padding: 30px;
+        border: 1px solid #d3d3d3;
+        border-radius: 5px;
+        position: relative;
+        margin-bottom: 50px;
+        .heading{
+            position: absolute;
+            width: 200px;
+            top: -20px;
+            left: 30px;
+            font-weight: 700;
+            color: #fff;
+            background: #343434;
+            text-align: center;
+        }
+    }
+    h2{
+        text-align: center;
+    }
+}
+
+.input-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    label{
+        flex-basis: 200px;
+        font-weight: 700;
+    }
+    input{
+        flex-basis: 500px;
+        border-radius: 4px;
+        border: 1px solid #d3d3d3;
+        font-size: 18px;
+        padding: 10px;
+        &:focus{
+            border: 1px solid #343434;
+            outline: none;
+        }
+    }
+}
+
+.checkout-form{
+    margin-top: 50px;
+}
+
+.same-as-shipping-checkbox{
+    margin: 50px 0px;
+    font-style: italic;
+}
+
+.submit{
+    text-align: center;
+    .cart-buttons{
+        display: inline-block;
+        width: 200px;
+        text-decoration: none;
+        margin: 10px 0px;
+        border: 1px solid #343434;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 10px 0px;
+        color: #fff;
+        background: #343434;
+    }
+
+}
+
+.bill{
+    width: 500px;
+    .bill-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: italic;
+        p{
+            color: #343434;
+        }
+        .amount-to-pay{
+            color: #48EC27;
+        }
+        input[type="text"]{
+            padding: 7px;
+            flex-basis: 385px;
+            border-radius: 4px;
+            border: 1px solid #343434;
+            font-size: 18px;
+        }
+        input[type="submit"]{
+            flex-basis: 90px;
+            margin-left: 20px;
+            background: #343434;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            padding: 10px 20px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        label{
+            flex-basis: 350px;
+        }
+    }
+    
+}
